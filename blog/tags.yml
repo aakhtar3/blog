@@ -1,0 +1,44 @@
+aws:
+  label: AWS
+  permalink: /aws
+  description: AWS cloud
+
+devops:
+  label: Devops
+  permalink: /devops
+  description: Devops software
+
+node:
+  label: Node
+  permalink: /node
+  description: Node js
+
+tutorial:
+  label: Tutorial
+  permalink: /tutorial
+  description: Tutorial
+
+security:
+  label: Security
+  permalink: /security
+  description: Security
+
+beginners:
+  label: Beginners
+  permalink: /beginners
+  description: beginners
+
+css:
+  label: CSS
+  permalink: /css
+  description: css
+
+html:
+  label: HTML
+  permalink: /html
+  description: html
+
+github:
+  label: Github
+  permalink: /github
+  description: github
