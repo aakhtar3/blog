@@ -72,3 +72,18 @@ watercooler:
   label: Watercooler
   permalink: /watercooler
   description: watercooler
+
+performance:
+  label: Performance
+  permalink: /performance
+  description: performance
+
+computerscience:
+  label: Computerscience
+  permalink: /computerscience
+  description: computerscience
+
+productivity:
+  label: Productivity
+  permalink: /productivity
+  description: productivity
