@@ -92,3 +92,8 @@ architecture:
   label: Architecture
   permalink: /architecture
   description: architecture
+
+systems:
+  label: Systems
+  permalink: /systems
+  description: systems
