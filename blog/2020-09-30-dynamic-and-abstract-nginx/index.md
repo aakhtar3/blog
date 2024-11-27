@@ -2,8 +2,7 @@
 slug: dynamic-and-abstract-nginx
 title: Dynamic and Abstract Nginx
 authors: aakhtar3
-tags: [beginners]
-image: https://blog.ayyazakhtar.com/assets/images/cover-427fe2dda4aae7109a490792a5c42fe7.jpeg
+tags: [beginners, tutorial, todayisearched, microservices]
 ---
 # Dynamic and Abstract Nginx
 

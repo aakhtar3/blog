@@ -42,3 +42,33 @@ github:
   label: Github
   permalink: /github
   description: github
+
+motivation:
+  label: Motivation
+  permalink: /motivation
+  description: motivation
+
+linux:
+  label: Linux
+  permalink: /linux
+  description: linux
+
+microservices:
+  label: Microservices
+  permalink: /microservices
+  description: microservices
+
+todayisearched:
+  label: Todayisearched
+  permalink: /todayisearched
+  description: todayisearched
+
+todayilearned:
+  label: Todayilearned
+  permalink: /todayilearned
+  description: todayilearned
+
+watercooler:
+  label: Watercooler
+  permalink: /watercooler
+  description: watercooler

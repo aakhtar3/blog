@@ -2,7 +2,7 @@
 slug: which-uuid-version
 title: Which UUID version?
 authors: aakhtar3
-tags: [beginners]
+tags: [beginners, todayilearned, todayisearched, watercooler]
 image: https://blog.ayyazakhtar.com/assets/images/cover-427fe2dda4aae7109a490792a5c42fe7.jpeg
 ---
 
