@@ -87,3 +87,8 @@ productivity:
   label: Productivity
   permalink: /productivity
   description: productivity
+
+architecture:
+  label: Architecture
+  permalink: /architecture
+  description: architecture

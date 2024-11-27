@@ -8,13 +8,13 @@ image: https://blog.ayyazakhtar.com/assets/images/cover-b35572b89cab55178f8a581a
 
 ![cover](./cover.jpg)
 
-<!-- truncate -->
-
 |  |  |  |
 |:-|:-|:-|
 |[1. Identify the Problem](#1-identify-the-problem)|[2. Develop a Theory](#2-develop-a-theory)|[3. Test the Theory](#3-test-the-theory)|
 |[4. Plan of Action](#4-plan-of-action)|[5. Implement the Solution](#5-implement-the-solution)|[6. Verify System Functionality](#6-verify-system-functionality)|
 ||[7. Document the Issue](#7-document-the-issue)||
+
+<!-- truncate -->
 
 I wanted to hard wire all of my devices on my Local Area Network using Ethernet. I noticed one of my connections was much slower than expected and wanted to fix it. This write up goes over the 7 steps that a network administrator should use to troubleshoot network issues.
 
