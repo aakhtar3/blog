@@ -117,3 +117,13 @@ networking:
   label: Networking
   permalink: /networking
   description: networking
+
+network:
+  label: Network
+  permalink: /network
+  description: network
+
+certification:
+  label: Certification
+  permalink: /certification
+  description: certification
