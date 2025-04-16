@@ -127,3 +127,28 @@ certification:
   label: Certification
   permalink: /certification
   description: certification
+
+leetcode:
+  label: Leetcode
+  permalink: /leetcode
+  description: leetcode
+
+algorithms:
+  label: Algorithms
+  permalink: /algorithms
+  description: algorithms
+
+kubernetes:
+  label: Kubernetes
+  permalink: /kubernetes
+  description: kubernetes
+
+terraform:
+  label: Terraform
+  permalink: /terraform
+  description: terraform
+
+systemdesign:
+  label: Systemdesign
+  permalink: /systemdesign
+  description: systemdesign
