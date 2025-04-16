@@ -93,7 +93,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Blog`,
     },
     prism: {
       theme: prismThemes.github,
