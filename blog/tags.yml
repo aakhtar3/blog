@@ -97,3 +97,23 @@ systems:
   label: Systems
   permalink: /systems
   description: systems
+
+cloud:
+  label: Cloud
+  permalink: /cloud
+  description: cloud
+
+howto:
+  label: Howto
+  permalink: /howto
+  description: howto
+
+programming:
+  label: Programming
+  permalink: /programming
+  description: programming
+
+networking:
+  label: Networking
+  permalink: /networking
+  description: networking
