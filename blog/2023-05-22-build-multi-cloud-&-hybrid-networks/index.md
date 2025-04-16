@@ -188,9 +188,9 @@ The purpose of this guide is to create four distributed networks and combine the
 
 ### SSM
 
-![SSMa](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/xzleognbsktx6j3q9b80.png)
+![AWS-SSM](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/xzleognbsktx6j3q9b80.png)
 
-- Using [AWS System Manager](SSMa) will allow remote access without opening any ssh ports
+- Using [AWS System Manager](SSM) will allow remote access without opening any ssh ports
 - Use to keep your network private
 - Use to debug any connectivity issues
 
