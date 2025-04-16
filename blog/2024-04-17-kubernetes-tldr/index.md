@@ -3,7 +3,7 @@ slug: kubernetes-tldr
 title: Kubernetes TLDR
 authors: aakhtar3
 tags: [kubernetes, terraform, systemdesign, devops]
-image: https://blog.ayyazakhtar.com/assets/images/cover-bc945d69dd167367564cacabb8095c2b.jpeg.jpg
+image: https://blog.ayyazakhtar.com/assets/images/cover-4c4ec7cb3148cadc9cfcbf2cf086d66d.jpeg
 ---
 
 ![cover](./cover.jpeg)

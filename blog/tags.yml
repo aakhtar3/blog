@@ -152,3 +152,18 @@ systemdesign:
   label: Systemdesign
   permalink: /systemdesign
   description: systemdesign
+
+cryptocurrency:
+  label: Cryptocurrency
+  permalink: /cryptocurrency
+  description: cryptocurrency 
+
+docker:
+  label: Docker
+  permalink: /docker
+  description: docker
+
+sitereliabilityengineering:
+  label: Sitereliabilityengineering
+  permalink: /sitereliabilityengineering
+  description: sitereliabilityengineering

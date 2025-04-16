@@ -3,7 +3,7 @@ slug: earn-max-leetcode-coins
 title: Earn Max Leetcode Coins
 authors: aakhtar3
 tags: [leetcode, algorithms, computerscience, programming]
-image: https://blog.ayyazakhtar.com/assets/images/cover-bc945d69dd167367564cacabb8095c2b.jpeg.jpg
+image: https://blog.ayyazakhtar.com/assets/images/cover-bc945d69dd167367564cacabb8095c2b.jpeg
 ---
 
 ![cover](./cover.jpeg)
