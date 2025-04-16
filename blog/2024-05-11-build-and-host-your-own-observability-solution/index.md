@@ -1,6 +1,6 @@
 ---
 slug: build-and-host-your-own-observability-solution
-title: Build and host your own observability solution
+title: Build and Host your own Observability Solution
 authors: aakhtar3
 tags: [networking, security, devops, sitereliabilityengineering]
 image: https://blog.ayyazakhtar.com/assets/images/cover-915aca8ca2c26987457244db228af90c.png
