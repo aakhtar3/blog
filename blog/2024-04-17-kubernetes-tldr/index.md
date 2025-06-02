@@ -30,7 +30,7 @@ Infrastructure as code to deploy cloud resources that will be used to run Kubern
 
 #### Lifecycle
 
-![Lifecycle](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/wwo4lto5l5j9i40imo6u.png)
+![Lifecycle](./img/lifecycle.png)
 
 - terraform init - Set up backend and pull dependencies from providers
     - .tfstate - s3
@@ -61,7 +61,7 @@ Infrastructure as code to deploy cloud resources that will be used to run Kubern
 
 ### Cluster
 
-![Cluster](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/utaxdo9kk2c6g9wrfa7j.png)
+![Cluster](./img/cluster.png)
 
 - Cluster - Multiple Control plane nodes for High Availability
 - Traffic
@@ -70,7 +70,7 @@ Infrastructure as code to deploy cloud resources that will be used to run Kubern
 
 ### Control Plane Node
 
-![Control Plane Node](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/z2rp4utaj6qavdp6t74i.png)
+![Control Plane Node](./img/control_plane_node.png)
 
 - Api Server - Front end of cluster on RESTful API over HTTPS
 - Cluster Store (etcd) - Holds desired state of all components of cluster
@@ -79,7 +79,7 @@ Infrastructure as code to deploy cloud resources that will be used to run Kubern
 
 ### Worker Node
 
-![Worker Node](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/cu1o98qlyr502fulap5h.png)
+![Worker Node](./img/worker_node.png)
 
 - Kublet - Agent handles workload from cluster and reporting
 - Runtime - kernel tasks using **containerd** to manage lifecycle
@@ -87,7 +87,7 @@ Infrastructure as code to deploy cloud resources that will be used to run Kubern
 
 ### Namespace
 
-![Namespace](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/r17h07tex7yzq1coyv21.png)
+![Namespace](./img/namespace.png)
 
 - Default Namespace - Components will be placed here if not specified
 - Named Namespace - Isolate components into segmented namespaces
@@ -101,7 +101,7 @@ Key atomic componentes to build applications on Kubernetes.
 
 ### Pod
 
-![Pod](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/nc1c580adzz8qecaz8uz.png)
+![Pod](./img/pod.png)
 
 - Init container - Runs once before main container
 - Main container - Core functionality of service
@@ -112,7 +112,7 @@ Key atomic componentes to build applications on Kubernetes.
 
 ### Config Map
 
-![Config Map](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/djacfy6arj5uskncu4qp.png)
+![Config Map](./img/config_map.png)
 
 - Environment Variable - Data can be injected to container environment 
 - Container Argument - Pass arguments into a container status up command
@@ -120,14 +120,14 @@ Key atomic componentes to build applications on Kubernetes.
 
 ### Secrets
 
-![Secrets](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/yb5ikact42hzywcllpuo.png)
+![Secrets](./img/secrets.png)
 
 - Native Secrets - Does not encrypt in transit or flight, stores in tmpfs as base64 and decode to plain text 
 - Vault Secrets - Require 3rd party integration to mange secrets
 
 ### Persistent Volume
 
-![Persistent Volume](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/k905ignrs7d8bho0cvgi.png)
+![Persistent Volume](./img/persistent_volume.png)
 
 - Persistent Volume Claim (PVC) - Pod need to request/claim volume and grant access to PVs
 - Persistent Volume (PV) - Maps to external storage providers
@@ -147,7 +147,7 @@ Package applications into segmented resources on Kubernetes cluster.
 
 ### Service
 
-![Service](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/vyqqvy9uic0pch97cbgo.png)
+![Service](./img/service.png)
 
 - Ingress - Handle many services on a single load balancer
 - Load Balancer - Cloud load balancer to handle traffic for service
@@ -156,7 +156,7 @@ Package applications into segmented resources on Kubernetes cluster.
 
 ### Service Registry
 
-![Service Registry](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/1u793kupilekxdq0zxb9.png)
+![Service Registry](./img/service_registry.png)
 
 - Kube-system (NS) - Cluster namespace for control plane
 - Kube-dns (SVC) - Service registry and discovery
@@ -164,21 +164,21 @@ Package applications into segmented resources on Kubernetes cluster.
 
 ### Service Discovery
 
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/q6ap2sy6jmiaed7a42wh.png)
+![Image description](./img/image_description.png)
 
 - Cluster Store - Stores DNS records from coredns
 - `Fully Qualified Domain Name (FQDN) - {service}.{namespace}.svc.cluster.local`
 
 ### Deployment
 
-![Deployment](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/pe1kya6ahwp022o5cp83.png)
+![Deployment](./img/deployment.png)
 
 - Deployment - Stateless application 
 - Replica Set - Deploy multiple pods in parallel
 
 ### Stateful Sets
 
-![Stateful Sets](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/cjjlmrta6awr771da5a7.png)
+![Stateful Sets](./img/stateful_sets.png)
 
 - Stateful Sets - Stateful application that needs to mount data
 - Replica Set - Deploy multiple pods in sequence
@@ -188,7 +188,7 @@ Package applications into segmented resources on Kubernetes cluster.
 
 Use Service Mesh to mange Kubernetes traffic, security, and observability.
 
-![Istio](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/0u67pmxpu9ide7aptaf6.png)
+![Istio](./img/istio.png)
 
 ### Control Plane
 
