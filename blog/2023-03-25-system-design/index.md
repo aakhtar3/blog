@@ -46,19 +46,19 @@ Identify how your system will behave.
 
 ### Architecture
 
-![High Availability](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/2u612jtqk4pe4mdtujmv.png)
+![High Availability](./img/high_availability.png)
 
 - High Availability
 - Failover
 
-![Reliability](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/f9yy7yrkbiih79wouwh7.png)
+![Reliability](./img/reliability.png)
 
 - Reliability
 - RPO/RTO
 
 ### Key Performance Indicators 
 
-![Performance](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/zs4ad6f7z2976vawivj5.png)
+![Performance](./img/performance.png)
 
 - Observability
 - Metrics
@@ -94,7 +94,7 @@ Using your estimations do some back of envelope.
 
 #### QPS
 
-![QPS](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/e43p1umloizfnfvnqaeq.png)
+![QPS](./img/qps.png)
 
 - Queries Per Second
 - Daily Active Users
@@ -102,7 +102,7 @@ Using your estimations do some back of envelope.
 
 #### Max QPS
 
-![Max QPS](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/d8ddm4xz1craxozw1soa.png)
+![Max QPS](./img/max_qps.png)
 
 - Double Queries Per Second
 - Calculate (Read % : Write %) Ratio
@@ -112,7 +112,7 @@ Using your estimations do some back of envelope.
 
 #### Storage Bytes
 
-![Storage Bytes](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/y6c30qmhnhqtpnz10297.png)
+![Storage Bytes](./img/storage_bytes.png)
 
 - Storage Bytes
 - Daily Active Users
@@ -120,7 +120,7 @@ Using your estimations do some back of envelope.
 
 #### Retention Bytes
 
-![Retention Bytes](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/vkjtt3cqqerya9q9tc34.png)
+![Retention Bytes](./img/retention_bytes.png)
 
 - Retention Bytes
 - Storage Bytes
@@ -129,7 +129,7 @@ Using your estimations do some back of envelope.
 
 #### In E Gress Bytes
 
-![In/E-Gress Bytes](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/j441wkjmvg8n61xgenbm.png)
+![In/E-Gress Bytes](./img/in-e-gress_bytes.png)
 
 - In-gress
 - E-gress
@@ -141,7 +141,7 @@ Using your estimations do some back of envelope.
 
 ### Wide Area Network
 
-![Wide Area Network](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/rl24ty28zxcpbg345rls.png)
+![Wide Area Network](./img/wide_area_network.png)
 
 - Clients
   - Mobile
@@ -155,7 +155,7 @@ Using your estimations do some back of envelope.
 
 ### Payload
 
-![Payload](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/59gz3wfs07cuy8kmaiap.png)
+![Payload](./img/payload.png)
 
 - API
 - Request Lines
@@ -164,7 +164,7 @@ Using your estimations do some back of envelope.
 
 ### Public Gateway
 
-![Public Gateway](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/342ua3gptnfmkfs52wty.png)
+![Public Gateway](./img/public_gateway.png)
 
 - Firewall
 - Rate Limiter
@@ -174,7 +174,7 @@ Using your estimations do some back of envelope.
 
 ### Virtual Private Cloud
 
-![Virtual Private Cloud](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/qdim8qe9170g4yr6asn5.png)
+![Virtual Private Cloud](./img/virtual_private_cloud.png)
 
 - Access Control List
 - Security Group
@@ -189,7 +189,7 @@ Using your estimations do some back of envelope.
 
 ### Load Balancer
 
-![Load Balancer](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/fbh09c9k819bzlcoa5hs.png)
+![Load Balancer](./img/load_balancer.png)
 
 - Layer 3/4/7 OSI
 - Strategy
@@ -197,7 +197,7 @@ Using your estimations do some back of envelope.
 
 ### Service Discovery
 
-![Service Discovery](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/yrptpsgok3ordm1qguaa.png)
+![Service Discovery](./img/service_discovery.png)
 
 - Auto Scale
   - DevOps
@@ -206,14 +206,14 @@ Using your estimations do some back of envelope.
 
 ### Consensus
 
-![Consensus](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/6rg0s8bp50onllzbolet.png)
+![Consensus](./img/consensus.png)
 
 - Raft Consensus
 - Replicated State Machine
 
 ### Compute
 
-![Compute](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/kl7anmanpofht9hhcgiq.png)
+![Compute](./img/compute.png)
 
 - Session(less)
 - State(full)/(less)
@@ -221,14 +221,14 @@ Using your estimations do some back of envelope.
 
 ### Message Queue
 
-![Message Queue](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/xcsxujos0zrera1ct0ue.png)
+![Message Queue](./img/message_queue.png)
 
 - Producer
 - Consumer
 
 ### Cache
 
-![Cache](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/8ohynydr2eltygrewues.png)
+![Cache](./img/cache.png)
 
 - Eviction Strategy
 
@@ -236,14 +236,14 @@ Using your estimations do some back of envelope.
 
 ### SQL
 
-![SQL](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/uet7cdj1o8252zgt03nk.png)
+![SQL](./img/sql.png)
 
 - Relational Data
 - Transactions
 
 ### NoSQL
 
-![NoSQL](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ptmx7z4epnptmpi7cq3f.png)
+![NoSQL](./img/nosql.png)
 
 - Key Value
 - Document
@@ -254,7 +254,7 @@ Using your estimations do some back of envelope.
 
 ### CAP PACELC
 
-![CAP](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/utj407jznb4qt0cb56ny.png)
+![CAP](./img/cap.png)
 
 - CAP
   - Consistency
@@ -273,7 +273,7 @@ Using your estimations do some back of envelope.
 
 ### Partition
 
-![Partition](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/q55pywi48nzr267n71mr.png)
+![Partition](./img/partition.png)
 
 - Consistent Hashing
 - Range Partition
@@ -281,7 +281,7 @@ Using your estimations do some back of envelope.
 
 ### Index
 
-![Index](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/95xy383preljy7njqj69.png)
+![Index](./img/index.png)
 
 - B Tree
 - Skip List
@@ -292,7 +292,7 @@ Using your estimations do some back of envelope.
 
 #### Atomicity
 
-![Atomicity](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/12fvaddtvqxirlqph2q5.png)
+![Atomicity](./img/atomicity.png)
 
 - Transactions
 - Rollbacks
@@ -301,7 +301,7 @@ Using your estimations do some back of envelope.
 
 ##### SQL Consistency
 
-![SQL Consistency](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ragocvaxsykmxifqry3y.png)
+![SQL Consistency](./img/sql_consistency.png)
 
 - Schema
 - Constraint
@@ -309,13 +309,13 @@ Using your estimations do some back of envelope.
 
 ##### NoSQL Consistency
 
-![NoSQL Consistency](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/btog6mwmbcmqiftksc3u.png)
+![NoSQL Consistency](./img/nosql_consistency.png)
 
 - Eventual Consistency
 - Sequential Consistency
 - Strong Consistency
 
-![Strong Eventual Consistency](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/zdhmt9m671mjd8gqd29m.png)
+![Strong Eventual Consistency](./img/strong_eventual_consistency.png)
 
 - Strong Eventual Consistency
 - Quorum Replication
@@ -324,7 +324,7 @@ Using your estimations do some back of envelope.
 
 #### Isolation
 
-![Isolation](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/sy3kkm99dx4x67efl5r4.png)
+![Isolation](./img/isolation.png)
 
 - Race Conditions
 - Lock
@@ -332,7 +332,7 @@ Using your estimations do some back of envelope.
 
 #### Durability
 
-![Durability](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/g9i34wwhnhsl1y6yqkhp.png)
+![Durability](./img/durability.png)
 
 - High Watermark
 - Checkpoint
