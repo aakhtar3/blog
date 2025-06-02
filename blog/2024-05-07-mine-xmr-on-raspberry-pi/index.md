@@ -26,7 +26,7 @@ I am still in the red due to electricity cost, but ARM helps with the cost due t
 
 Building a compact cluster has advantages, by sharing electricity over USB hubs or Power Over Ethernet and segmenting the cluster into its own network.
 
-![Pi Cluster](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/cp357pm6axvnb7h37ofz.jpg)
+![Pi Cluster](./img/pi_cluster.jpg)
 
 - ARM is energy efficient and can share power over USB hub of 5v
 - Stackable nodes in a segmented network
@@ -36,7 +36,7 @@ Building a compact cluster has advantages, by sharing electricity over USB hubs 
 
 Switched from Pi v3 to Pi v5.
 
-![Upgrade Hardware](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/542m63lp7wab88osx4p2.png)
+![Upgrade Hardware](./img/upgrade_hardware.png)
 
 - Pi v3 - Over 5 months I made $0.00 with a 1 H/s
 - Pi v5 - In a day was hitting consistent ~150 H/s and finally made $0.01
@@ -45,7 +45,7 @@ Switched from Pi v3 to Pi v5.
 
 Avoid cross architecture emulation on docker, which causes performance bottlenecks. Instead use native ARM Architecture when packaging your containers.
 
-![Use ARM architecture](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/zslccc35xa3y7ctoth8r.png)
+![Use ARM architecture](./img/use_arm_architecture.png)
 
 - Pi v3 arm - 1 H/s
 - Pi v5 amd -> arm - ~150 H/s
@@ -56,12 +56,12 @@ Avoid cross architecture emulation on docker, which causes performance bottlenec
 
 Final summary of current setup
 
-![Summary 1](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/0h2xsqn4iyr3bhcbww9e.png)
+![Summary 1](./img/summary_1.png)
 
 - Peaked at 3.5 KH - Improved by 3,500%
 - Now make $0.05 per day
 
-![Summary 2](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/85iiynh5gz1srci8bqxw.png)
+![Summary 2](./img/summary_2.png)
 
 - 1 m1 2 core arm
 - 1 m2 2 core arm
