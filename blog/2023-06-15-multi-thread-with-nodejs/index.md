@@ -28,40 +28,40 @@ This guide is meant to be a resource to understand the multi-threading APIs and 
 
 ## Synchronous vs Asynchronous
 
-![Synchronous vs Asynchronous](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/bas575itbqp4cpyse6g3.png)
+![Synchronous vs Asynchronous](./img/synchronous_vs_asynchronous.png)
 
 - [Synchronous] - Operations are expected to start and finish in a time span.
 - [Asynchronous] - Operations can be deferred till a later time.
 
 ## Concurrency
 
-![Concurrency](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/01lkc8z92dsoe2gssdo1.png)
+![Concurrency](./img/concurrency.png)
 
 - [Concurrency] - Multiple operations are handled at the same time.
 
 ## Sequential vs Parallel
 
-![Sequential vs Parallel](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/zyn39jr1wii1ndcck5tm.png)
+![Sequential vs Parallel](./img/sequential_vs_parallel.png)
 
 - [Sequential] - Multiple operations are done in a linear fashion.
 - [Parallel] - Multiple operations are done at the same time.
 
 ## Distributed
 
-![Distributed](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/vv4cf94aodcwslikkwd3.png)
+![Distributed](./img/distributed.png)
 
 - [Distributed] - Multiple operations are done independently on segmented resources.
 
 ## Process vs Thread
 
-![Process vs Thread](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/qbsiy8pxtam880qeea7p.png)
+![Process vs Thread](./img/process_vs_thread.png)
 
 - [Process] - A program can use single or multiple threads.
 - [Thread] - Code execution is invoked and uses less resources than a process.
 
 ## Javascript Engine
 
-![Javascript-Engine](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/up2in98mgpg80788gw4s.png)
+![Javascript-Engine](./img/javascript_engine.png)
 
 - [Javascript Engine] - Node.js process runs on top of the google chrome v8 engine.
   - Heap - Memory management of variables. 
