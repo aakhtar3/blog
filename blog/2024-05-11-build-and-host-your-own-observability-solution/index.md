@@ -18,7 +18,7 @@ High level overview of how the control node will run SIEM, while hosts are sendi
 
 <!-- truncate -->
 
-![Network Traffic](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/k8db20ob6dp1p5f1xd1p.png)
+![Network Traffic](./img/network_traffic.png)
 
 ## Portainer
 
@@ -47,7 +47,7 @@ Head over to `https://localhost:9443` and create admin credentials.
 
 Separately you can install an agent on a seperate host. This will allow you to manage multiple docker hosts from a single portal.
 
-![Agent](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/7hh5plunwxwby1x7s742.png)
+![Agent](./img/agent.png)
 
 
 ## Stack
@@ -56,11 +56,11 @@ Build your siem stack on portainer using an .env and docker-compose.yml
 
 ### Create
 
-![Stacks](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/v7z82oiinld7agfdpvdg.png)
+![Stacks](./img/stacks.png)
 
-![Add](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/eqi5486p88li0egve2fd.png)
+![Add](./img/add.png)
 
-![Paste](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/opn5payjac3grod8jwg8.png)
+![Paste](./img/paste.png)
 
 ### Env
 
@@ -76,7 +76,7 @@ DOCKER_DATA=/home/$(whoami)/siem/data
 DOCKER__CONFIG=/home/$(whoami)/siem/config
 ```
 
-![env](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/t8nu8w0jnmseb63mq8pp.png)
+![env](./img/env.png)
 
 ### Compose Common Attributes
 
@@ -221,11 +221,11 @@ services:
       <<: *environment
 ```
 
-![Metric 1](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/z3wj65w5weamuv22gb7r.png)
+![Metric 1](./img/metric_1.png)
 
-![Metric 2](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/tm4t4hc5vqenwstw6n53.png)
+![Metric 2](./img/metric_2.png)
 
-![Metric 3](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/0zyp0aezwnl9k1tesx91.png)
+![Metric 3](./img/metric_3.png)
 
 ## Logging
 
@@ -288,13 +288,13 @@ services:
       <<: *environment
 ```
 
-![Log 1](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/oxk7flxgw417kcx0o298.png)
+![Log 1](./img/log_1.png)
 
-![Log 2](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/tqbuptdh9whathal3ndy.png)
+![Log 2](./img/log_2.png)
 
-![Log 3](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/e2xh6tx4vhpzimwbsks7.png)
+![Log 3](./img/log_3.png)
 
-![Log 4](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/z8dboqfi3qonhvlx22vt.png)
+![Log 4](./img/log_4.png)
 
 ## Alerting
 
@@ -314,9 +314,9 @@ services:
       <<: *environment
 ```
 
-![Alerting](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/0z3k4lhlrrk3qa9q3nmr.png)
+![Alerting](./img/alerting.png)
 
-![Notification](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/8zztw9lvjut841n9tbpl.png)
+![Notification](./img/notification.png)
 
 ## Dashboard
 
