@@ -615,7 +615,7 @@ TODO: Check out this write-up on how to configure a DNS server with PiHole
 
 ![Tunnel1 Config-b](./img/tunnel1_config-b.png)
 
-![Tunnel1 Config-b](./img/tunnel1_config-c.png)
+![Tunnel1 Config-c](./img/tunnel1_config-c.png)
 
 |||
 |:-:|:-:|
@@ -662,7 +662,7 @@ TODO: Check out this write-up on how to configure a DNS server with PiHole
 
 ![BGB-config-a](./img/bgb-config-a.png)
 
-![BGB-config-a](./img/bgb-config-b.png)
+![BGB-config-b](./img/bgb-config-b.png)
 
 |||
 |:-:|:-:|
@@ -679,9 +679,9 @@ TODO: Check out this write-up on how to configure a DNS server with PiHole
 
 ![FRR Neighbors config-a](./img/frr_neighbors_config-a.png)
 
-![FRR Neighbors config-b](./img/frr_neighbors_config-a.png)
+![FRR Neighbors config-b](./img/frr_neighbors_config-b.png)
 
-![FRR Neighbors config-c](./img/.png)
+![FRR Neighbors config-c](./img/frr_neighbors_config-c.png)
 
 |||
 |:-:|:-:|
@@ -693,16 +693,16 @@ TODO: Check out this write-up on how to configure a DNS server with PiHole
 
 ##### FRR Status
 
-![Status Routes](./img/.png)
+![Status Routes](./img/status_routes.png)
 
 - Verify Dynamic Routes have been updated
 
-![Status Summary](./img/.png)
+![Status Summary](./img/status_summary.png)
 
 - View the BGP Summary
 
 ### Mac
 
-![Mac](./img/.png)
+![Mac](./img/mac.png)
 
 - Mac -> AWS

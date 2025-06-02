@@ -18,7 +18,7 @@ I recently went on a certification binge to get 12 certs in 5 months (Nov/4/23 -
 
 ## Scrum
 
-![Scrum Path](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/i6a7f9z33hw23m8skw1f.png)
+![Scrum Path](./img/scrum_path.png)
 
 ### ScrumMaster
 
@@ -34,7 +34,7 @@ I recently went on a certification binge to get 12 certs in 5 months (Nov/4/23 -
 
 My journey started back in 2016 when I first got my `Certified ScrumMaster` certification through [scrumalliance.org]. The certification needs to be renewed before the two-year renewal date. Typically, I would obtain the scrum education units ([SEU]) and pay the renewal fee. However, in late 2020, I wanted to pick up a new `Scrum Developer` certification. I plan on getting `Product Owner` and then moving onto the `Advanced` level where the certs start to stack on renewal.
 
-![Scrum Pass](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/rmpbq02w5wyhlkzi7kze.png)
+![Scrum Pass](./img/scrum_pass.png)
 
 ### Scrum Resources
 
@@ -46,7 +46,7 @@ My journey started back in 2016 when I first got my `Certified ScrumMaster` cert
 
 ## AWS
 
-![AWS Path](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/4j6879gvdp75sull5250.png)
+![AWS Path](./img/aws_path.png)
 
 ### DevOps
 
@@ -64,7 +64,7 @@ My journey started back in 2016 when I first got my `Certified ScrumMaster` cert
 
 I skipped the `Cloud Practitioner` and plan on taking the `Speciality` certs at some point. I had already taken the three `Associate` and two `Professional` certifications through [aws.amazon.com] in early 2020, but they needed to be renewed before the three-year renewal date. Luckily, these certifications stack, so I only needed to take two `Professional` exams to receive all five certifications in late 2022.
 
-![AWS Pass](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/y1eyl99wi8obrlcbuzxb.jpeg)
+![AWS Pass](./img/aws_pass.jpeg)
 
 ### AWS Resources
 
@@ -93,7 +93,7 @@ I skipped the `Cloud Practitioner` and plan on taking the `Speciality` certs at 
 
 ## CompTIA
 
-![CompTIA Path](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/4w7xlsvulocijtj41app.png)
+![CompTIA Path](./img/comptia_path.png)
 
 [Comptia.org] was new to me but they offer a few tracks to allow stackable certifications. I skipped `A+` and `Server+` but instead went straight for Infrastructure and Cyber Security certifications.
 
@@ -113,7 +113,7 @@ Cloud+ can be renewed by either retaking the test before the three years renewal
 
 CASP+ can be renewed by either retaking the test before the three years renewal date or obtaining 75 Continued Education Units ([CEU]). I plan on taking college courses, working, and writing blogs to renew this certification. Down the road, I will start taking other non-CompTIA certs on the [CASP renew list].
 
-![CompTIA Pass](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/67gupkhzvbiug3q5d4cv.png)
+![CompTIA Pass](./img/comptia_pass.png)
 
 ### CompTIA Resources
 
