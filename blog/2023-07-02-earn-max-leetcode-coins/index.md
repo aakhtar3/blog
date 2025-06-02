@@ -22,7 +22,7 @@ Investing time to master and retain data structures and algorithms will net you 
 
 ## Goal
 
-![Leetcode Kit](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/86zghdkkh0hja4soyza0.png)
+![Leetcode Kit](./img/leetcode_kit.png)
 
 Leetcode has gamified this egregious grind by providing a [store], where you can redeem your earned coins for prizes. The prizes are nothing spectacular, but earning the t-shirt is an exciting challenge since `6,000` (t-shirt) or `7,800` (t-shirt, keychain, and coaster) coins will require a lot of time, discipline, and commitment.
 
@@ -45,7 +45,7 @@ Below is a breakdown to earn the maximum amount of coins to get the t-shirt in l
 
 ### Social Media
 
-![Social Media](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/qkknq8et8gouthmmivsa.png)
+![Social Media](./img/social_media.png)
 
 - Easy coins if you want to share your social media on your profile. 
 
@@ -60,7 +60,7 @@ Below is a breakdown to earn the maximum amount of coins to get the t-shirt in l
 
 ### Daily
 
-![Daily](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/0plk4rnlpxkaufve8jpn.png)
+![Daily](./img/daily.png)
 
 - View the daily [challenges] from the problem page.
 
@@ -75,7 +75,7 @@ Below is a breakdown to earn the maximum amount of coins to get the t-shirt in l
 
 ### Weekly
 
-![Weekly](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/na9u0ifxew2xk7tk4wp3.png)
+![Weekly](./img/weekly.png)
 
 - View the weekly [challenges] from the problem page.
 
@@ -88,7 +88,7 @@ Below is a breakdown to earn the maximum amount of coins to get the t-shirt in l
 
 ### Bi Weekly
 
-![Bi Weekly](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/0z2rfg7fm7uclrfowprk.png)
+![Bi Weekly](./img/bi_weekly.png)
 
 - Register to participate in the bi/weekly [contest(s)].
 
@@ -103,7 +103,7 @@ Below is a breakdown to earn the maximum amount of coins to get the t-shirt in l
 
 ### Monthly
 
-![Monthly](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/vh442koyn0sqyz6pjukp.png)
+![Monthly](./img/monthly.png)
 
 - Earn badges for keeping your streak.
 
