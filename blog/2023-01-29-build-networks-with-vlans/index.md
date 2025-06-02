@@ -41,7 +41,7 @@ There are many risks introduced when using a single Local Area Network (LAN), bu
 
 Be aware of VLAN hopping attacks, this can be achieved by misconfigured VLAN tables and adding additional VLAN tags on the data frame, but the data can not return in this situation.
 
-![Tagging](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/qjdoh5so46irj0hnil9y.gif)
+![Tagging](./img/tagging.gif)
 - [networkacademy.io]
 
 [networkacademy.io]: https://www.networkacademy.io/ccna/ethernet/trunk-native-vlan
@@ -55,7 +55,7 @@ When following this guide, you should work on ONE network at a time. Be patient,
 
 ### Physical and Logical Network Diagram
 
-![Network Diagram](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/64fi792kdaczuln8hmt3.png)
+![Network Diagram](./img/network_diagram.png)
 
 - 14 Networks
   - 1 WAN
@@ -70,13 +70,13 @@ When following this guide, you should work on ONE network at a time. Be patient,
 
 ### INFRA
 
-![Infra](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/6hopqts6nakftdc0vmsx.png)
+![Infra](./img/infra.png)
 
 This is your most critical network because it will logically separate your network. You should put physical safeguards on these devices. You can achieve this by storing in a secure location, disabling unused port, and applying MAC address allow lists.
 
 ### ADMIN
 
-![Admin](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/lonj6hfh4h9slpgs7xy6.png)
+![Admin](./img/admin.png)
 
 This network should be limited to an administrator who will build, monitor, debug, test, and fix the network.
 
@@ -86,7 +86,7 @@ Bluetooth devices such as wireless headphones will create a Personal Area Networ
 
 ### GAME
 
-![Game](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/dhgd2gghhdw5f4b2w918.png)
+![Game](./img/game.png)
 
 You want to take advantage of prioritizing networks by moving this network to a lower priority using quality of service [802.1P].
 
@@ -94,24 +94,24 @@ Bluetooth controllers are on PAN with the consoles. Infrared remotes also create
 
 ### LAB
 
-![Lab](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/495y6myl937x5pvv6ju2.png)
+![Lab](./img/lab.png)
 
 This network is physically separated over a distance between four switches. You should have a laboratory (dev) network to test on before making changes on other networks.
 
 ### IOT
 
-![IOT](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/bs68hnk2haapxygwmkdi.png)
+![IOT](./img/iot.png)
 
 IOT devices should be on 2.4 GHz, since they do not need high data caps and to lower broadcast interference. In addition, these devices can have poor security and can be exploited.
 
-![2.4 GHz](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/slhqjjjmsc6boty0d53j.png)
+![2.4 GHz](./img/2.4_ghz.png)
 
 - 2.4 GHz
 - [metageek.com]
 
 [ZigBee] is using the 2.4 GHz frequency, but has multiple channels that overlap Wifi channels. This frequency should be placed on a channel that won't get overpowered from wifi devices.
 
-![ZigBee](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/l8c793mg8fbqe7pdqzhv.png)
+![ZigBee](./img/zigbee.png)
 
 - ZigBee
 - [metageek.com]
@@ -121,13 +121,13 @@ IOT devices should be on 2.4 GHz, since they do not need high data caps and to l
 
 ### NAS
 
-![NAS](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/l8cx1uepo6ii6exekmub.png)
+![NAS](./img/nas.png)
 
 Data is your Gold (Network Attached Storage (NAS)), so it need to be protected. This is a private network, meaning it has no access to any network, including the internet. Only a few devices should have access to the data ports. To perform updates on the system and software, you can forward proxy the requests through a NAT using filtered allow list of endpoints.
 
 ### DMZ
 
-![DMZ](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ijpn1qhdfo9yloapafsc.png)
+![DMZ](./img/dmz.png)
 
 There are many ways to connect to a dematerialized zone (DMZ) a.k.a screened subnet and one wrong misconfiguration can be disastrous.
 
@@ -135,13 +135,13 @@ This type of network is open to the WAN (Internet). This can be used when you wa
 
 ### WORK
 
-![Work](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/zkw6c6q1soke94a73s5x.png)
+![Work](./img/work.png)
 
 Sometimes you need to work from home and you should avoid mixing network traffic with your personal network. Your work network should be connected to your works network through a VPN.
 
 ### GUEST
 
-![Guest](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/3uxw2ecubmg2wckkd68g.png)
+![Guest](./img/guest.png)
 
 Guests will need access to your internet, so having a wifi only connection will serve this purpose.
 
@@ -177,30 +177,30 @@ You can send all egress WAN (Internet) traffic through a VPN. So that you can pr
 
 You should already have pfSense installed and configured on your Local Area Network (LAN) and connected to a Wide Area Network (WAN).
 
-![Setup](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/upgr9otwqy8lj1cg7v7m.png)
+![Setup](./img/setup.png)
 
 - Click General Setup
 
-![Add DNS](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/dl5a77o6ln1g1sou5tmw.png)
+![Add DNS](./img/add_dns.png)
 
 - Add your local DNS
 
-![Save](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/1r0xfppa8e5pxxnmbmee.png)
+![Save](./img/save_1.png)
 - Save
 
 #### VLANs
 
 Add your VLANs with a priority and ID.
 
-![Interface](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ki6hz77dpihuk9wqd78s.png)
+![Interface](./img/interface.png)
 
 - Click Interfaces/Assignments
 
-![Add VLANs](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/xyj95pi9xrsj2puvlu05.png)
+![Add VLANs](./img/add_vlans.png)
 
 - Add VLANs
 
-![Add Interfaces](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/v2cus8t7htuxwzomtnsv.png)
+![Add Interfaces](./img/add_interfaces.png)
 
 - Add Interfaces
 
@@ -208,15 +208,15 @@ Add your VLANs with a priority and ID.
 
 You will do this for each interface.
 
-![Edit Interface](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/yxe5a9biwtcchf1j5jjq.png)
+![Edit Interface](./img/edit_interface.png)
 
 - Edit Interface
 
-![Save](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/2ln1sztta86ib114ao1l.png)
+![Save](./img/save_2.png)
 
 - Save
 
-![Apply](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/y1mxui0sag62hj54qpam.png)
+![Apply](./img/apply.png)
 
 - Apply
 
@@ -224,23 +224,23 @@ You will do this for each interface.
 
 You will need to do this for each interface. This protocol will assign IP address for each VLAN.
 
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/jdjtpf0rre551ignkkln.png)
+![DHCP](./img/dhcp.png)
 
 - Click Services/DHCP Server
 
-![Enable DHCP](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/fnm9x7rdt5z7arqczcdi.png)
+![Enable DHCP](./img/enable_dhcp.png)
 
 - Enable Dynamic Host Configuration Protocol (DHCP)
 
-![Add DNS](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ud0dfg7ff7knrca7p73n.png)
+![DNS Add](./img/dns_add.png)
 
 - Add DNS
 
-![Use MAC](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/wgj1781pjnkl224ay6ul.png)
+![Use MAC](./img/use_mac.png)
 
 - Use MAC address to assign static IP and hostname
 
-![Save](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/d0g6x8q5v17bz9flkkfn.png)
+![Save](./img/save_3.png)
 
 - Save
 
@@ -248,19 +248,19 @@ You will need to do this for each interface. This protocol will assign IP addres
 
 These are used to point to more one or more devices on the the network. These can be edited and applied across all firewall rules.
 
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/akymx5ufom19vhtdy2fp.png)
+![Aliases](./img/aliases.png)
 
 - Click Firewall/Aliases
 
-![Add IPs](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/29ijdkvt9fgtpqqpncnk.png)
+![Add IPs](./img/add_ips.png)
 
 - Add IPs
 
-![Add Ports](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/o8mbbno59j8t5mw2n192.png)
+![Add Ports](./img/add_ports.png)
 
 - Add Ports
 
-![Save](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/zi9444kbq3j3nsl6c246.png)
+![Save](./img/save_4.png)
 
 - Save
 
@@ -268,7 +268,7 @@ These are used to point to more one or more devices on the the network. These ca
 
 Rules are stateful (Ingress traffic will be able to return egress traffic with out any rules), read from top to bottom, and have a implicit deny.
 
-![Click Firewall/Rules](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/63w4fwfg1qxh2yazvmc7.png)
+![Click Firewall/Rules](./img/click_firewall_rules.png)
 
 - Click Firewall/Rules
 
@@ -276,7 +276,7 @@ Rules are stateful (Ingress traffic will be able to return egress traffic with o
 
 Wide Area Network (WAN) is used to connect to remote networks over your ISP or VPN connection.
 
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/836bnbwfbe4fe8l68hgp.png)
+![Wan](./img/wan.png)
 
 - Block Everything by using the implicit deny 
 
@@ -288,7 +288,7 @@ The LAN internal traffic will allow the ADMIN_HOSTS to perform debugging tasks o
 
 The LAN Egress traffic is set to WAN only. The NAS interface does not have this rule because the data on this network needs to be tightly locked down.
 
-![Add Floating Rules](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/n5ci0kxusjzeymftd3ra.png)
+![Add Floating Rules](./img/add_rule.png)
 
 - Add Floating Rules
 
@@ -296,13 +296,13 @@ The LAN Egress traffic is set to WAN only. The NAS interface does not have this 
 
 Anti-Lock is added by default to prevent from being locked out. The SIEM (Security Information Event Management) host will be the only host on the entire network to connect to the NAS network Data Ports.
 
-![Add Rules](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/y8svddq1wenn4k83jjyl.png)
+![Add Rules](./img/infra_rule.png)
 
 - Add rule with aliases
 
 ##### NAS Rules
 
-![Add Rules](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/m38k2jp2k9j962uyzpo0.png)
+![Add Rules](./img/add_rules.png)
 
 - Add Rules
 
@@ -310,7 +310,7 @@ Anti-Lock is added by default to prevent from being locked out. The SIEM (Securi
 
 You can run this command on the firewall `netstat -nWr` to see the route table on the firewall.
 
-![Save](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/dmh5p2sg1v8m2wkgedr0.png)
+![Save](./img/save_5.png)
 
 - Save
 
@@ -318,25 +318,25 @@ You can run this command on the firewall `netstat -nWr` to see the route table o
 
 For short term log viewing, you can view from status
 
-![Click Status](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/1k15j2267jlf517ue206.png)
+![Click Status](./img/click_status.png)
 
 - Click Status/System Logs
 
-![Add Filter](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/gqbcdwoq8lsd6wdfl2uh.png)
+![Add Filter](./img/add_filter.png)
 
 - Add Filter
 
 For long term log viewing, you can send to a SIEM.
 
-![Click Status/System Logs](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/hvkjlf5ngsz4f9coy49h.png)
+![Click Status/System Logs](./img/click_status_system_logs.png)
 
 - Click Status/System Logs
 
-![Enable](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/zdqcwiqg7ksb9d9ld5cl.png)
+![Enable](./img/enable_1.png)
 
 - Enable
 
-![Add SIEM](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/x50vnejfppejfb4b9bqj.png)
+![Add SIEM](./img/add_siem.png)
 
 - Add SIEM
 - Save
@@ -345,19 +345,19 @@ For long term log viewing, you can send to a SIEM.
 
 Use these services to help troubleshoot.
 
-![Click Diagnostics](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/kc6vsix4wxlaku87y75j.png)
+![Click Diagnostics](./img/click_diagnostics.png)
 
 - Click Diagnostics
 
-![Pftop](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/p38xlnuqaoslr40ntm9r.png)
+![Pftop](./img/pftop.png)
 
 - Type Host IP to see active connections
 
-![States](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/vypug1i0rrrmbgdiia9a.png)
+![States](./img/states.png)
 
 - Filter on interface
 
-![Rebooot](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/o49r9xtko94arv0r3tfy.png)
+![Rebooot](./img/rebooot.png)
 
 - Restart if all else fails
 
@@ -381,14 +381,13 @@ Use these services to help troubleshoot.
 
 You can either use a remote DNS servers, but your network will need to make a round trip through the WAN. Local DNS can cache, provide insights on your requests, and filter out request with DNS sink.
 
-![PiHole](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/bpurtkjcks9wgddstal8.png)
+![PiHole](./img/pihole.png)
 
 - [pi-hole](https://pi-hole.net)
 
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/sv4gd5occub5g8vmzj6y.png)
+![adgaurd](./img/adgaurd.png)
 
-- [Adguard](https://ubuntu.com/appliance/adguard/raspberry-pi
-)
+- [Adguard](https://ubuntu.com/appliance/adguard/raspberry-pi)
 
 ### siem
 
@@ -475,15 +474,15 @@ networks:
     driver: bridge
 ```
 
-![Add Input](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/0qhqdocc6uq95m8hyocb.png)
+![Add Input](./img/add_input.png)
 
 - Add input
 
-![Syslog](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/q7pmdzlaa1y6q1igmi18.png)
+![Syslog](./img/syslog.png)
 
 - Syslog
 
-![Port 514](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/3wbh8iv3bnmwtd9j8q4n.png)
+![Port 514](./img/port_514.png)
 
 - Port 514
 
@@ -491,7 +490,7 @@ networks:
 
 [Grafana]: https://grafana.com/grafana/dashboards/5420-pfsense-graylog/
 
-![Dashboard](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ax9agezz1o5jgptc5ql7.png)
+![Dashboard](./img/dashboard.png)
 
 - Use Graylog data to visualize on dashboard
 
@@ -501,7 +500,7 @@ networks:
 
 Use this for packet capturing on a particular interface.
 
-![Wireshark](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/9wjgtmomdtufulwrwvpj.png)
+![Wireshark](./img/wireshark.png)
 
 ### wap
 
@@ -539,56 +538,56 @@ Can provide reasonable speeds for IOT devices, has 3 usable channels in the USA,
 
 #### Administration
 
-![Management](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/2s9n41h1mfurgykwscp6.png)
+![Management](./img/management.png)
 
 - Click Administration/Management
 
-![Protocols](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/g6lqm347qv7qstp9y9l6.png)
+![Protocols](./img/protocols.png)
 
 - Enable Protocols
 
-![Save](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/subiwp3weh6u3p92v7bl.png)
+![Save](./img/save_6.png)
 
 - Save
 
 #### Basic Config
 
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/5p2znqiz0p3u66g65hxf.png)
+![wap_basic_setup](./img/wap_basic_setup.png)
 
 - Click Setup/Basic Setup
 
-![Disable WAN](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/52hfrew10b6brjueh7xe.png)
+![Disable WAN](./img/disable_wan.png)
 
 - Disable WAN
 
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/hiafvt5dwqb0td12idwk.png)
+![Disable dhcp](./img/disable_dhcp.png)
 
 - Assign IP information
 - Disable DHCP
 
-![Save](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/subiwp3weh6u3p92v7bl.png)
+![Save](./img/save_7.png)
 
 - Save
 
 #### wap Services
 
-![Click Services/Services](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/kn09hmfv20hqsvk2ug8v.png)
+![Click Services/Services](./img/click_services_services.png)
 
 - Click Services/Services
 
-![Disable Services](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/70vn99k32wspifanlpsw.png)
+![Disable Services](./img/disable_services.png)
 
 - Disable Services
 
-![SSH](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/8r68zl12nd0s6pul77xv.png)
+![SSH](./img/ssh.png)
 
 - Enable SSH
 
-![Syslog](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/pw7ma462optpk7qwljbt.png)
+![Syslog](./img/syslog.png)
 
 - Enable Syslog
 
-![Save](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/subiwp3weh6u3p92v7bl.png)
+![Save](./img/save_8.png)
 
 - Save
 
@@ -596,37 +595,37 @@ Can provide reasonable speeds for IOT devices, has 3 usable channels in the USA,
 
 Your wireless connection might be different.
 
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ybngcerv88rikqnhzqyz.png)
+![Image description](./img/image_description.png)
 
 - Click Wireless/Basic Setting
 
-![Add 5.0 GHZ Virtual Access Points](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/hsf9i26pv90zw7v05jja.png)
+![Add 5.0 GHZ Virtual Access Points](./img/add_5.0_ghz_virtual_access_points.png)
 
 - Add 5.0 GHZ Virtual Access Points
 
-![Add 2.4 GHZ Virtual Access Points](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/51lgl7wxtjvxsxp3t1n4.png)
+![Add 2.4 GHZ Virtual Access Points](./img/add_2.4_ghz_virtual_access_points.png)
 
 - Add 2.4 GHZ Virtual Access Points
 
-![Disable Mixed Connection](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/gcswjpczftyt9kkuim9y.png)
+![Disable Mixed Connection](./img/disable_mixed_connection.png)
 
 - Disable Mixed Connection
 
-![Save](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/subiwp3weh6u3p92v7bl.png)
+![Save](./img/save_9.png)
 
 - Save
 
 #### wap Security
 
-![Click Wireless/Wireless Security](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/5mnecx53rt6aqrutymi5.png)
+![Click Wireless/Wireless Security](./img/click_wireless_wireless_security.png)
 
 - Click Wireless/Wireless Security
 
-![Set Mode](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ja406gnpyt9d3ovsujdp.png)
+![Set Mode](./img/set_mode.png)
 
 - Set Mode
 
-![Save](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/subiwp3weh6u3p92v7bl.png)
+![Save](./img/save_10.png)
 
 - Save
 
@@ -634,29 +633,29 @@ Your wireless connection might be different.
 
 You will need to use 2 ports on wap (WAN and LAN) when configuring your VLANs. You can use one, but you will be unplug and plug between these interfaces. Once configuration is complete you will only need to connect LAN port, but you will lose access to the router console.
 
-![Click Setup/Switch Config](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/6tgc8xu9yc06qsjvdq07.png)
+![Click Setup/Switch Config](./img/click_setup_switch_config.png)
 
 - Click Setup/Switch Config
 
-![Table](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/yj6rhb3cv9qtihhpwcpf.png)
+![Table](./img/table.png)
 
 - Configure your VLAN Table
 
-![Save](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/subiwp3weh6u3p92v7bl.png)
+![Save](./img/save_11.png)
 
 - Save
 
 #### wap Networking
 
-![Click Setup/Networking](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/36xgfl764cfhyr6jlhi4.png)
+![Click Setup/Networking](./img/click_setup_networking.png)
 
 - Click Setup/Networking
 
-![Add Bridges and map to your VLANs](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/egjxsz7c2cfsw2obt5vd.png)
+![Add Bridges and map to your VLANs](./img/add_bridges_and_map_to_your_vlans.png)
 
 - Add Bridges and map to your VLANs
 
-![Save](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/subiwp3weh6u3p92v7bl.png)
+![Save](./img/save_12.png)
 
 - Save
 
@@ -664,7 +663,7 @@ You will need to use 2 ports on wap (WAN and LAN) when configuring your VLANs. Y
 
 Use the SIEM to read SYSlogs and Wireshark to analyze traffic
 
-![Reboot](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/qkjh07hgho24wl0l1r35.png)
+![Reboot](./img/reboot.png)
 
 - Reboot if all fails
 
@@ -673,28 +672,27 @@ Use the SIEM to read SYSlogs and Wireshark to analyze traffic
 
 These switch help expand the network by carrying VLAN IDs. You will enable VLANS and set PVIDs through the admin console.
 
-![802.1Q](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/2wpviihyk3k9bzhyyjui.png)
+![802.1Q](./img/802.1q.png)
 
 - 802.1Q
 
-![Enable](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/vhxikl6jqrvyo5wwfi8s.png)
+![Enable](./img/enable_2.png)
 
 - Enable
 
-![PVID](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/vq9astwrvonlxn8p0slc.png)
+![PVID](./img/pvid_0.png)
 
 - Use when a port needs to be untagged and allow DHCP to assign IPs for that VLAN
-
 
 ### TL-1
 
 #### 10.0.1.11
 
-![VLAN Table](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/qacxhez3vkjpq0z2vbu1.png)
+![VLAN Table](./img/vlan_table_1.png)
 
 - VLAN Table
 
-![PVID](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/6zec5t9f2tcn3s3tl4x7.png)
+![PVID](./img/pvid_1.png)
 
 - PVID
 
@@ -702,11 +700,11 @@ These switch help expand the network by carrying VLAN IDs. You will enable VLANS
 
 #### 10.0.1.12
 
-![VLAN Table](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/vkc0151fms6qeltkdloc.png)
+![VLAN Table](./img/vlan_table_2.png)
 
 - VLAN Table
 
-![PVID](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/274afs6li3rwulcwhveg.png)
+![PVID](./img/pvid_2.png)
 
 - PVID
 
@@ -714,10 +712,10 @@ These switch help expand the network by carrying VLAN IDs. You will enable VLANS
 
 #### 10.0.1.13
 
-![VLAN Table](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/hm87j9mne1iybo50d2pc.png)
+![VLAN Table](./img/vlan_table_3.png)
 
 - VLAN Table
 
-![PVID](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/mwt2e3887qntpk4bvx65.png)
+![PVID](./img/pvid.png)
 
 - PVID
