@@ -44,23 +44,23 @@ cat ~/.ssh/id_rsa | pbcopy
 
 Choose `Debian 9` for the OS
 
-![OS](https://dev-to-uploads.s3.amazonaws.com/i/8aaof339ikop8gcliqq7.png)
+![OS](./img/os.png)
 
 Choose Basic plan `$15.00/mo` so that you can properly install the OS without errors
 
-![Basic Plan](https://dev-to-uploads.s3.amazonaws.com/i/i3o66e59rg41k7rpci1i.png)
+![Basic Plan](./img/basic_plan.png)
 
 Choose Datacenter
 
-![Data Center](https://dev-to-uploads.s3.amazonaws.com/i/ojsyyd9ic3hvntbxor9a.png)
+![Data Center](./img/data_center.png)
 
 Add SSH key from the previous blink step
 
-![Alt Text](https://dev-to-uploads.s3.amazonaws.com/i/1u2pbzr6ru1i26dokq1d.png)
+![Alt Text](./img/ssh_key.png)
 
 Get IPv4 address
 
-![Alt Text](https://dev-to-uploads.s3.amazonaws.com/i/iya800a5qimvv7gzqxhw.png)
+![Alt Text](./img/alt_text.png)
 
 ### Mosh
 
@@ -68,15 +68,15 @@ Get IPv4 address
 
 #### Host
 
-![config](https://dev-to-uploads.s3.amazonaws.com/i/i2spfhceqeotzk1wumdj.png)
+![config](./img/config.png)
 
 Click on `Hosts`
 
-![Hosts](https://dev-to-uploads.s3.amazonaws.com/i/cefctim71hejuery50tn.png)
+![Hosts](./img/hosts.png)
 
 Enter the hostname values and use the SSH key that you created in the previous steps
 
-![hostname](https://dev-to-uploads.s3.amazonaws.com/i/by50lfj8gpcxx8hmuwl7.jpeg)
+![hostname](./img/hostname.jpeg)
 
 #### Install
 
@@ -127,7 +127,7 @@ apt-get update -y
 apt-cache search kali-linux
 ```
 
-![Distros](https://dev-to-uploads.s3.amazonaws.com/i/1e28r15fdoaso8o9ny2k.png)
+![Distros](./img/distros.png)
 
 #### Install
 
@@ -140,43 +140,44 @@ You will be prompted a few questions during the installation
 
 Select Language
 
-![Language](https://dev-to-uploads.s3.amazonaws.com/i/jxw8e6ckvf1wew5zuapc.png)
+![Language](./img/language.png)
 
 Install Samba
 
-![Samba](https://dev-to-uploads.s3.amazonaws.com/i/gd28p1dm5v7qj1o2gcx1.png)
+![Samba](./img/samba.png)
 
 Enable Packet Capture
 
-![Wireshark](https://dev-to-uploads.s3.amazonaws.com/i/o8jd1zusb5dhrf30ihet.png)
+![Wireshark](./img/wireshark.png)
 
 Enable Mac Changer
 
-![Macchanger](https://dev-to-uploads.s3.amazonaws.com/i/eg2r7utwvpr2ko4odmz5.png)
+![Macchanger](./img/macchanger.png)
 
 Kismet is a resource hog, but can be turned off with
 `systemctl stop kismet`
 
-![Kismet](https://dev-to-uploads.s3.amazonaws.com/i/bkboadfybt38zx6zylwa.png)
+![Kismet](./img/kismet.png)
 
 Add user
 
-![Kismet common](https://dev-to-uploads.s3.amazonaws.com/i/wkvf91tvwwyv4n305fb4.png)
+![Kismet common](./img/kismet_common.png)
 
 Standalone
 
-![Standalone](https://dev-to-uploads.s3.amazonaws.com/i/e2y8k13oakx2r13f64nz.png)
+![Standalone](./img/standalone.png)
 
 Restart services after installation
 
-![Restart](https://dev-to-uploads.s3.amazonaws.com/i/3o4m9ie8zvx3ooja2x7b.png)
+![Restart](./img/restart.png)
 
 Restart services
 
-![Cron](https://dev-to-uploads.s3.amazonaws.com/i/6u57hrj4wxbbp5rufvoc.png)
+![Cron](./img/cron.png)
 
 Use sshd config
-![Sshd](https://dev-to-uploads.s3.amazonaws.com/i/x38jqvaz3o46ghld0dj4.png)
+
+![Sshd](./img/sshd.png)
 
 #### Validate
 
@@ -199,7 +200,7 @@ shutdown now -rf
 uname -r
 ```
 
-![uname](https://dev-to-uploads.s3.amazonaws.com/i/pymimnsig7rve6pkxujo.png)
+![uname](./img/uname.png)
 
 ### VNC
 
@@ -283,44 +284,46 @@ shutdown now -rf
 # Verify that VNC is listening on localhost or 127.0.0.1 and port 5901
 netstat -tupln | grep vnc
 ```
-![netstat](https://dev-to-uploads.s3.amazonaws.com/i/qh2ru0sw910p51fgtq2u.png)
+![netstat](./img/netstat.png)
 
 ### JumpDesktop
 
 Set the hostname as `localhost` or `127.0.0.1` and the port as `5901`
 
-![new](https://dev-to-uploads.s3.amazonaws.com/i/g1lfdl9t2iipxohv8821.png)
+![new](./img/new.png)
 
 Edit
 
-![edit](https://dev-to-uploads.s3.amazonaws.com/i/2q8ghifdd6t1n7gy71j9.png)
+![edit](./img/edit.png)
 
 Add SSH Tunneling
 
-![ssh](https://dev-to-uploads.s3.amazonaws.com/i/vx32tgjyt8ssikb2yxct.png)
+![ssh](./img/ssh.png)
 
 Add sever by adding the IPv4 address from [Digital Ocean](https://m.do.co/c/c4eedf7f7c5c)
 
-![Server](https://dev-to-uploads.s3.amazonaws.com/i/3p34b1c9edl5mihftj8w.png)
+![Server](./img/server.png)
 
 You will need to either copy and paste or load iTunes and store the key in the jump desktop app
 
-![Import from Itunes](https://dev-to-uploads.s3.amazonaws.com/i/94i5q7nn0o4et7ipdcts.png)
+![Import from Itunes](./img/import_from_itunes.png)
 
 Add the private key
-![private key](https://dev-to-uploads.s3.amazonaws.com/i/swpmkzpix69mev6lhgp8.png)
+
+![private key](./img/private_key.png)
 
 Update the icon and title
-![Update](https://dev-to-uploads.s3.amazonaws.com/i/v9j1ljzcy6hswqqym5bn.png)
+
+![Update](./img/update.png)
 
 Enable SSH
 
-![Enable shh](https://dev-to-uploads.s3.amazonaws.com/i/f1gs1muwp1tvdd09iwas.png)
+![Enable shh](./img/enable_shh.png)
 
 Enter VNC password that you created in the previous step
 
-![Password](https://dev-to-uploads.s3.amazonaws.com/i/f845turege175xi4sk8v.png)
+![Password](./img/password.png)
 
 Interact with GUI
 
-![GUI](https://dev-to-uploads.s3.amazonaws.com/i/epwlqadvuqky4a61u7nt.png)
+![GUI](./img/gui.png)
